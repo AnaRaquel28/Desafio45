@@ -1,0 +1,209 @@
+<!DOCTYPE html><!--Esta linha declara o tipo de documento HTML--->
+<head> <!--Cabeçalho (informações, meta dados e links externos)-->
+    <meta charset="UTF-8"><!-- caracteres especiais-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--modo de exibição do Internet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--escala inicial da página para 1.0-->
+    <link rel="stylesheet" href="style.css"><!-- vincula o arquivo de estilo CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" /><!--link externo para o uso de ícones-->
+
+<!--Nome do site no navegador-->
+    <title>site desenvolvimento web</title>
+</head> <!--Fim do cabeçalho-->
+
+<!--Inicio do corpo do documento-->
+<body>
+    <header style="background-image: ('');"><!--estilo do fundo do cabeçalho.-->
+        <div class="container"><!--abre a div para o elemento do contêiner-->
+            <nav> <!--barra de navegação-->
+                <a href="index.html"><!--reinicia a pagina-->
+                <img src="logo.png" alt="Logo" width="200px" height="80px"></a> <!--volta à página inicial/escala da imagem-->
+                <ul class="ul" style="list-style: none;"> <!-- lista não ordenada no menu-->
+                <!--Itens do menu, direcionam a seções do site-->
+                    <li><a href="#apresentacao">Apresentação</a></li> 
+                    <li><a href="#programa">Conteúdo Programático</a></li>
+                    <li><a href="#material">Material de Aula</a></li>
+                    <li><a href="#professores">Professores</a></li>
+                    <li><a class="btn" href="#contato">Contato</a></li>
+                  </ul> <!--fim da lista-->
+            </nav>
+        </header> <!--fim do cabeçalho-->
+    
+        <header banner> <!--suporte navegacional-->
+            <section class="banner"> <!--classe banner-->
+                <div class="banner-text"> <!--classe do texto do banner-->
+                    <h1>Desenvolvimento web</h1> <!--Titulo em nivel 1-->
+                    <p>"A questão não é saber os códigos ou linhas de comando, é saber o que fazer com eles."</p><!--Paragrafo como subtitulo-->
+                    <a href="#contato" class="btn">Entrar em contato</a><!--cria um link, e uma classe btn e aponta o ID "contato"-->
+                </div> <!--fecha a div "banner-text"-->
+            </section><!--fecha a seção "banner"-->
+   </header> <!--fecha cabeçalho-->
+    
+   <!--SESSÃO 01: APRESENTAÇÃO-->
+   
+    <section class="apresentaçao"><!--seção com a classe-->
+        <div class="container"> <!--div com a classe "container"-->
+            <div class="apresentaçao-text"> <!-- div com a classe "apresentação-text" -->
+                <section id="apresentacao"> <!--cria uma seção com o ID "apresentacao" -->
+                <h3>A disciplina e seus objetivos</h3><br/><br/><!--título de nível 3 com duas quebra de linha-->
+                <p>A disciplina de desenvolvimento web é uma área de estudo que se concentra no desenvolvimento de 
+                    sites e aplicativos web. O objetivo da disciplina é capacitar profissionais a criar soluções web 
+                    eficientes, confiáveis e seguras para atender às necessidades de negócios e usuários finais.</p><br>
+                    <!-- fim do paragrafo da apresentação com quebra de linha-->
+                    <ul><!--lista ordenada com os objetivos-->
+                        <li>Compreender as tecnologias básicas.</li>
+                        <li>Aprender boas práticas de programação.</li>
+                        <li>Desenvolver habilidades de resolução de problemas.</li>
+                        <li>Aprender a criar interfaces de usuário atraentes.</li>
+                        <li>Entender a importância da segurança.</li>
+                        <li>Aprender a trabalhar em equipe.</li>
+                        <li>Praticar e experimentar.</li>
+                        </ul><!--fecha lista-->
+                    </section><!--fecha a seção Apresentação-->
+            </div>
+            <div class="apresentaçao-img"><!--div com a classe da imagem utilizada-->
+                <img src="apresentação.png"><!-- inserção de uma imagem-->
+            </div>
+    </section> 
+     
+    <!--SESSÃO 02: CONTEÚDO PROGRAMÁTICO-->
+
+      <section class="apresentaçao"><!--abertura de uma seção com a classe-->
+        <div class="container"> <!--nova divisão com uma classe-->
+            <div class="apresentaçao-img"><!--nova divisão com uma classe da imagem-->
+                <img src="conteudo.png" alt=""><!--inserção de uma imagem-->
+            </div>
+            <div class="apresentaçao-text"><!--nova divisão com uma classe do texto-->
+                <section id="programa"><!--seção com o id programa-->
+                <h3>Conteúdo Programático</h3><br/><br/><!--titulo de nivel 3 para a sessão-->
+                <p>A disciplina de desenvolvimento web é bastante ampla e inclui vários tópicos. 
+                    Aqui estão alguns dos principais tópicos abordados na disciplina:</p><br><!--fim do paragrafo com quebra de linha-->
+                    <ul><!--lista ordenada com o conteudo abordado-->
+                        <li>HTML: a linguagem de marcação usada para criar a estrutura e o conteúdo das páginas da web.</li>
+                        <li>CSS: a linguagem de estilo usada para controlar a aparência e o layout das páginas da web.</li>
+                        <li>JavaScript: a linguagem de programação usada para criar interatividade e dinamismo nas páginas da web.</li>
+                        <li>Frameworks: conjuntos de bibliotecas e ferramentas que permitem aos desenvolvedores web criar aplicativos web mais 
+                            rapidamente e com menos esforço.</li>
+                    </ul>
+                </section><!--fim da seção do id-->
+      </div><!--fim da divisão -->
+    </div><!--fim da divisão conteiner-->
+    </section><!--fim da seção com a classe Apresentação-->
+
+    <!--SESSÃO 03: MATERIAL DE AULA-->
+
+    <section class="apresentaçao"><!--Sessão com a classe apresentação-->
+        <div class="container"><!--divisão com uma classe-->
+            <div class="apresentaçao-texts"><!--divisão com classe do texto-->
+                <section id="material"><!--seção na página, com o ID "material-->
+                <h3>Material de Aula</h3><br/><br/><!--titulo da seção de nivel 3 com duas quebras de linha-->
+                <div class="rows-cards"><!--divisão com a classe rows-cards-->
+
+                    <div class="row-card-item"> <!--divisão com a classe row-card-item-->
+                        <img src="educacao.png" width="50px" height="50px"><!--inserção de icone e sua escala-->
+                        <p class="nome-curso"><strong>Cursos online</strong></p><br><!--classe curso com titulo em negrito-->
+                        <p class="descrição-curso"><!--classe curso-online-->
+                            <ul class="lista" style="list-style: none;"><!--lista sem marcação-->
+                            <li>Codecademy: <a href="https://www.codecademy.com/learn/paths/web-development" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Udacity: <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>FreeCodeCamp: <a href="https://www.freecodecamp.org/learn/" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Coursera: <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" target="_blank" rel="external">clique aqui!</a></li>
+                        </ul><!--fim da lista dos links externos de cursos, encaminha a uma nova guia ao clicar-->
+                        </p>
+                    </div>
+                    
+                    <div class="row-card-item"><!--ainda dentro da classe row-card-item-->
+                        <img src="livros.png" width="50px" height="50px"><!--inserção de icone e sua escala-->
+                        <p class="nome-curso"><strong>Livros</strong></p><br><!--classe curso com titulo em negrito-->
+                        <p class="descrição-curso"><!--classe curso-online-->
+                            <ul class="lista" style="list-style: none;"><!--lista sem marcação-->
+                            <li>HTML and CSS: <a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>JavaScript and JQuery: <a href="https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Web Design with HTML, CSS, JavaScript and jQuery: <a href="https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Learning Web Design: <a href="https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270" target="_blank" rel="external">clique aqui!</a></li>
+                        </ul><!--fim da lista dos links externos de livros, encaminha a uma nova guia ao clicar-->
+                        </p>
+                    </div>
+                    <div class="row-card-item"><!--ainda dentro da classe row-card-item-->
+                        <img src="ferramenta.png" width="50px" height="50px"><!--inserção de icone e sua escala-->
+                        <p class="nome-curso"><strong>Ferramentas de Desenvolvimento</strong></p><br><!--classe curso com titulo em negrito-->
+                        <p class="descrição-curso"><!--classe curso-online-->
+                            <ul class="lista" style="list-style: none;"><!--lista sem marcação-->
+                            <li>Visual Studio Code: <a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>GitHub: <a href="https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Bootstrap: <a href="https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>React:  <a href="https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Node.js: <a href="https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270" target="_blank" rel="external">clique aqui!</a></li>
+                        </ul><!--fim da lista dos links externos de ferramentas, encaminha a uma nova guia ao clicar-->
+                        </p>
+                    </div>
+                    <div class="row-card-item"><!--ainda dentro da classe row-card-item-->
+                        <img src="forum.png" width="50px" height="50px"><!--inserção de icone e sua escala-->
+                        <p class="nome-curso"><strong>Comunidades e Fóruns</strong></p><br><!--classe curso com titulo em negrito-->
+                        <p class="descrição-curso"><!--classe curso-online-->
+                            <ul class="lista" style="list-style: none;"><!--lista sem marcação-->
+                            <li>Stack Overflow: <a href="https://stackoverflow.com/" target="_blank" rel="external">clique aqui!</a></li>
+                            <li>Reddit: <a href="http://dev.to/" target="_blank" rel="external">clique aqui!</a></li>
+                        </ul><!--fim da lista dos links externos de foruns, encaminha a uma nova guia ao clicar-->
+                        </p>
+                    </div>
+                    <div class="row-card-item"><!--ainda dentro da classe row-card-item-->
+                        <img src="youtube.png" width="50px" height="50px"><!--inserção de icone e sua escala-->
+                        <p class="nome-curso"><strong>Blogs e Canais do YouTube</strong></p><br><!--classe curso com titulo em negrito-->
+                        <p class="descrição-curso"><!--classe curso-online-->
+                            <ul class="lista" style="list-style: none;"><!--lista sem marcação-->
+                                <li>MDN Web Docs: <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="external">clique aqui!</a></li>
+                                 <li>Smashing Magazine: <a href="https://www.smashingmagazine.com/" target="_blank" rel="external">clique aqui!</a></li>
+                                <li>Traversy Media: <a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="external">clique aqui!</a></li>
+                                <li>FreeCodeCamp: <a href="https://www.youtube.com/c/Freecodecamp" target="_blank" rel="external">clique aqui!</a></li>
+                        </ul><!--fim da lista dos links externos de blogs, encaminha a uma nova guia ao clicar-->
+                        </p>
+                    </div></div>               
+            </section>
+            </div>
+      </div>
+    </section>
+
+    <!--SESSÃO 04: PROFESSORES-->
+    <section class="apresentaçao"><!--Sessão com a classe apresentação-->
+        <div class="container">  <!--divisão com classe container-->
+            <div class="apresentaçao-img"><!--divisão com classe de apresentação-img-->
+                <section id="professores"></section><!--seção na página, com o ID professores-->
+                <img src="professor.png" alt=""><!--inserção de imagem-->
+            </div>
+            <div class="apresentaçao-text"> <!--Sessão com a classe apresentação-->
+                <h3>Professores</h3><br/><br/><!--titulo nivel 3, com quebra de linha-->
+                <p>Professores da disciplina de Desenvolvimento Web do curso de Informática.</p><!--paragrafo curto-->
+                <p>Aqui estão os professores da disciplina de Desenvolvimento Web:</p><br><!--paragrafo curto-->
+                <ul><li> Iury Gomes de Oliveira.</li>
+                <li>E-mail: iury.oliveira@ifto.edu.br</li>
+                <li>Github: <a href="https://github.com/iurygdeoliveira">https://github.com/iurygdeoliveira</a></li><!--link para o perfil-->
+                </ul><br><!--fim da lista de dados do Iury-->
+                <ul>
+                    <li>Nome: Marily Lima</li>
+                    <li>E-mail: marily.conceicao@ifto.edu.br</li>
+                </ul><!--fim da lista de dados do Marily-->
+            </div>
+    </section>
+    
+    <!--SESSÃO 05: CONTATO/RODAPÉ-->
+
+    <footer><!--incio do rodapé-->
+        <div class="redes-sociais"><!--divisão dom classe de redes sociais-->
+            <section id="contato"><!--seção na página, com o ID contato-->
+            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        </div><!--Icones de mídia social da biblioteca-->
+        <ul class="links"><!--classe links-->
+            <li> <a href="https://github.com/iurygdeoliveira/Web-development-classes"  target="_blank" rel="external"   >Github</a></li>
+            <li> <a href="https://www.youtube.com/channel/UCTM1Idirf0ALOdEdq31qkjg?view_as=subscriber" target="_blank" rel="external">Youtube</a></li>
+            <li> <a href="https://twitter.com/IuryProf" target="_blank" rel="external">Twitter</a></li>
+            <li> <a href="https://www.linkedin.com/in/iurygdeoliveira/" target="_blank" rel="external">LinkdIn</a></li>
+        </ul></section><!--lista com links das redes sociais, que abrem em uma nova guia-->
+        <p class="copy">Desenvolvimento web 2023</p><!--paragrafo de conclusão do rodapé-->
+    </footer><!--fim do rodapé-->
+</body><!--fim do corpo html-->
+</html><!--fim do documento html-->
